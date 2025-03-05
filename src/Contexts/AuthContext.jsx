@@ -38,7 +38,7 @@ export const AuthProvider = ({ children }) => {
 
       // Static Login Credentials for Testing
       const users = {
-        "jayakumar@gmail.com": { password: "123", role: "ADMIN", id: "1" },
+        "jayakumar@gmail.com": { password: "123456", role: "ADMIN", id: "1" },
         "coordinator@gmail.com": {
           password: "456",
           role: "COORDINATOR",

@@ -31,6 +31,8 @@ import ModeratorCourses from "./pages/moderator/moderatorCourses";
 import ModeratorCourse from "./pages/moderator/moderatorCourse";
 import ModeratorPaper from "./pages/moderator/moderatorPaper";
 import ProtectedRoute from "./components/ProtectedRoute";
+import CourseCard from "./components/cards/CourseCard";
+
 
 const App = () => {
   const queryClient = new QueryClient();
@@ -64,6 +66,7 @@ const App = () => {
             <Route path="/moderator/courses" element={<ProtectedRoute element={<ModeratorCourses />} />} />
             <Route path="/moderator/courses/:id" element={<ProtectedRoute element={<ModeratorCourse />} />} />
             <Route path="/moderator/courses/:courseid/:paperid" element={<ProtectedRoute element={<ModeratorPaper />} />} />
+
           </Routes>
         </div>
       </Router>
