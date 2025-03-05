@@ -31,7 +31,7 @@ import ModeratorCourses from "./pages/moderator/moderatorCourses";
 import ModeratorCourse from "./pages/moderator/moderatorCourse";
 import ModeratorPaper from "./pages/moderator/moderatorPaper";
 import ProtectedRoute from "./components/ProtectedRoute";
-import CourseCard from "./components/cards/CourseCard";
+
 
 
 const App = () => {
